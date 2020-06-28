@@ -1,0 +1,106 @@
+{
+    "Bootstrap 4 Starter Template":{
+        "prefix": "!bs4",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "<meta name=\"Description\" content=\"Enter your description here\"/>",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css\">",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css\">",
+            "<link rel=\"stylesheet\" href=\"assets/css/style.css\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\"></script>",
+            "</body>",
+            "</html>"
+          ],
+          "description": "This displays BootStrap 4 CDN(content distribution network) all it's dependencies and Font-Awesome 5"
+        },
+        "Bootstrap 4 Starter Template with JQuery with Ajax ":{
+          "prefix": "!bs4jQajax",
+          "body":[
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "<meta name=\"Description\" content=\"Enter your description here\"/>",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css\">",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css\">",
+            "<link rel=\"stylesheet\" href=\"assets/css/style.css\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\"></script>",
+            "</body>",
+            "</html>"
+          ],
+          "description": "This comes with a complete Bootstrap 4 CDN(content distribution network) all it's dependencies, jQuery with Ajax and Font-Awesome 5"
+        },
+
+        "Bootstrap 4 Starter Template - CSS Only ":{
+          "prefix": "!bs4css", 
+          "body":["<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "<meta name=\"Description\" content=\"Enter your description here\"/>",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css\">",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css\">",
+            "<link rel=\"stylesheet\" href=\"assets/css/style.css\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "</body>",
+            "</html>"
+          ],
+          "description": "This comes with a complete Bootstrap 4 CDN(content distribution network) ith CSS-only and Font-Awesome 5"
+        },
+        "Bootstrap 3 Starter Template" :{
+          "prefix": "!bs3", 
+          "body":[ "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "<meta name=\"Description\" content=\"Enter your description here\"/>",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css\">",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css\">",
+            "<link rel=\"stylesheet\" href=\"assets/css/style.css\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js\"></script>",
+            "</body>",
+            "</html>"
+          ],
+          "description": "This comes with a complete Bootstrap 3 CDN(content distribution network all it's dependencies and Font-Awesome 5"
+        }
+    }
+
+          
+    
+      
+          
+
+ 
+
+    

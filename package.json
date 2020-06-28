@@ -1,0 +1,104 @@
+{
+	"name": "webdev",
+	"displayName": "WebDev",
+	"description": "It's a web skeleton, that help speed the process of creating a web page. While send funny motivational messages at the user to increase the UX",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [
+		"onCommand:extension.createWebPageSkeleton"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.createWebPageSkeleton",
+				"title": "Create web page"
+			}
+		],
+		"snippets": [
+			{	
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}, 
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+			"language": "html",
+			"path": "./snippets/navbar.json"
+		  },
+		  {
+			"language": "html",
+			"path": "./snippets/forms.json"
+		  },
+		  {
+			"language": "jinja-html",
+			"path": "./snippets/snippets.json"
+		},
+		{
+		"language": "jinja-html",
+		"path": "./snippets/navbar.json"
+	  },
+	  {
+		"language": "jinja-html",
+		"path": "./snippets/forms.json"
+	  },
+	  {
+		"language": "django-html",
+		"path": "./snippets/snippets.json"
+	},
+	{
+	"language": "django-html",
+	"path": "./snippets/navbar.json"
+  },
+  {
+	"language": "django-html",
+	"path": "./snippets/forms.json"
+  },
+  {
+
+	"language": "javascriptreact",
+	"path": "./snippets/navbar.json"
+	},
+{
+"language": "javascriptreact",
+"path": "./snippets/forms.json"
+},
+{
+
+	"language": "javascript",
+	"path": "./snippets/navbar.json"
+	},
+{
+"language": "javascript",
+"path": "./snippets/forms.json"
+}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
+}
